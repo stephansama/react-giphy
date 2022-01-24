@@ -8,12 +8,17 @@ const Footer = () => {
 					<a
 						href='mailto:stephanrandle.dev@gmail.com?subject=Programming Inquiry'
 						target='_blank'
+						rel='noreferrer'
 					>
 						EMAIL
 					</a>
 				</li>
 				<li>
-					<a href='https://github.com/stephansama' target='_blank'>
+					<a
+						href='https://github.com/stephansama'
+						rel='noreferrer'
+						target='_blank'
+					>
 						GitHub
 					</a>
 				</li>
@@ -21,6 +26,7 @@ const Footer = () => {
 					<a
 						href='https://www.linkedin.com/in/stephan-randle-38a30319a/'
 						target='_blank'
+						rel='noreferrer'
 					>
 						LinkedIn
 					</a>
