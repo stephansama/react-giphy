@@ -1,0 +1,25 @@
+button {
+	font-family: inherit;
+	border: none;
+	color: hsl(0, 50%, 90%);
+	padding: 0;
+	border-radius: var(--radius);
+	cursor: pointer;
+	background-color: var(--button-back);
+	outline-offset: 4px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+button > span {
+	display: block;
+	background-color: var(--button-front);
+	padding: 15px;
+	font-size: 1.2em;
+	border-radius: var(--radius);
+	transform: translateY(-6px);
+	transition: transform 200ms;
+}
+
+button:active > span {
+	transform: translateY(-2px);
+}
